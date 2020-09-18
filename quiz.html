@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Bootstrap/css/all.min.css">
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/quiz.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div class="container-fluid quiz-back">
+        <div class="container">
+            <div class="quiz">
+                <div class="header">
+                    <div>
+                        <p id="user-name"></p>
+                    </div>
+                    <div class="time">
+                        <p id="time">
+                            <span id="minutes"></span>
+                            <span id="seconds"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="question">
+                        <p id="question"></p>
+                        <!-- <ul class="option-list">
+                        <li class="option">Option 1</li>
+                        <li class="option">Option 1</li>
+                        <li class="option">Option 1</li>
+                        <li class="option">Option 1</li>
+                    </ul> -->
+                    </div>
+                    <div class="py-1 text-right">
+                        <button id="next" onclick="nextQuestion()"> Next Question </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./Script/app.js"></script>
+<script src="./Script/quiz.js"></script>
+<script src="./Script/result.js"></script>
+<script src="./Script/timer.js"></script>
+
+
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Bootstrap/css/all.min.css">
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/quiz.css">
+    <link rel="stylesheet" href="./CSS/end.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="quiz result">
+                <div class="header">
+                    <h2> Quiz Result </h2>
+                </div>
+                <div class="body">
+                    <table class=" result-body">
+                        <tr>
+                            <td class="col-1">
+                                <h5>Name</h5>
+                            </td>
+                            <td class="col-2" id="name"></td>
+                        </tr>
+                        <tr>
+                            <td class="col-1">
+                                <h5>Total Question</h5>
+                            </td>
+                            <td class="col-2" id="total-question"></td>
+                        </tr>
+                        <tr>
+                            <td class="col-1">
+                                <h5>Attempt</h5>
+                            </td>
+                            <td class="col-2" id="attempt"></td>
+                        </tr>
+                        <tr>
+                            <td class="col-1">
+                                <h5>Correct</h5>
+                            </td>
+                            <td class="col-2" id="correct-answer">
+                                <h6></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-1">
+                                <h5>Your Total Score</h5>
+                            </td>
+                            <td class="col-2" id="total-score">
+                                <h6></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-1">
+                                <h5>Time Taken</h5>
+                            </td>
+                            <td class="col-2" id="time-taken">
+                                <h6></h6>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div id="back" onclick="backToHome()"><button> Go To Home </button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./Script/quiz.js"></script>
+<script src="./Script/result.js"></script>
+
+</html>

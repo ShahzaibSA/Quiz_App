@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Bootstrap/css/all.min.css">
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Start</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="start-box">
+                <form class="start" name="welcome_form" onsubmit="submitForm(event)">
+                    <h3>Instruction:</h3>
+
+                    <h4>Total Number of Question: <span id="total-questionssss"></span></h4>
+
+                    <input required type="text" placeholder="Enter Your Name" name="name">
+
+                    <button type="submit"> Start Quiz </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./Script/quiz.js"></script>
+<script src="./Script/app.js"></script>
+<script src="./Script/timer.js"></script>
+
+</html>
